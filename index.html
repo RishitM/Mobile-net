@@ -1,0 +1,48 @@
+
+<html>
+  <head>
+    <title>MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Stick&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <center>
+<h1 class="btn btn-default" id="header">Image Identification Model<span><img src="logo.gif" id="pic1"></span></h1>
+<br><br><br><br><br><br><br>
+<div class="contanier">
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><h4 id="wecbcam">Webcam View-</h4>
+<div id="camera"></div>
+<h4 onclick="takePic()" class="btn btn-info">Take Picture</h4>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><h4 id="wecbcam1">Snapshot-</h4>
+  <div id="result"></div>
+  <h4 onclick="takePic()" class="btn btn-success">Identify Picture</h4>
+  </div>
+  <h2 id="answer" class="btn btn-default"><span><img src="blub.gif" id="pic2"></span></h2>
+    </center>
+    
+<div><h2 class="btn btn-primary" id="dev">Developed By : Rishit Mahajan</h2></div>
+
+    
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
